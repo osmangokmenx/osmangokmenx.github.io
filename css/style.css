@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Monaco";
+  src: url("../assets/fonts/Monaco.ttf");
+}
+
+body {
+  background-color: #131313;
+  color: #c7c7c7;
+  font-family: "Monaco";
+}
+.command {
+  color: #00afb9;
+  text-shadow: 0 0 5px #00afb9;
+}
+div.command {
+  width: 100px;
+}
+.command-list {
+  display: flex;
+}
+
+.content-line {
+  margin: 0.3rem 1rem;
+}
+
+.terminal-input-line {
+  display: flex;
+  position: relative;
+}
+#terminal-input {
+  position: absolute;
+  top: 0%;
+  left: -1000px;
+}
+#typer {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #c7c7c7;
+  font-family: "Monaco";
+  font-size: 1rem;
+  position: relative;
+  margin-left: 0.6rem;
+}
+.cursor {
+  font-size: 12px;
+  color: #c7c7c7;
+  background-color: #c7c7c7;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.link,
+a {
+  color: #e9c46a;
+  transition: 200ms;
+}
+.link:hover,
+a:hover {
+  text-shadow: 0 0 5px #e9c46a;
+}
+
+#command-template,
+.command-template {
+  color: #60d701;
+}
+
+.dir {
+  color: #00aefe;
+}
