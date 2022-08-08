@@ -83,3 +83,7 @@ function redirect(url) {
     window.open(url, "_blank").focus();
   }, 700);
 }
+
+commandTemplateItem.innerHTML = commandTemplate;
+output.innerHTML =
+  "<div class='content-line' style='margin:0;'>For a list of commands, type '<span class='command'>help</span>'.</div> <br>";

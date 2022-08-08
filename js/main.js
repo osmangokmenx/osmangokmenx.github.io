@@ -3,6 +3,7 @@
   - fix cursor movement on command+a and backspace
   - fix utf-8 font (ş İ ö ç ü...)
 */
+
 document.addEventListener("keydown", (e) => {
   input.focus();
   switch (e.keyCode) {
