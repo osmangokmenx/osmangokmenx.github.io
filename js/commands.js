@@ -12,7 +12,7 @@ const cv = "Soon...";
 const social = [
   "<a target='_blank' href='https://github.com/osmangokmenx'>GitHub</a>",
   "<a target='_blank' href='https://linkedin.com/in/osmangokmenx'>LinkedIn</a>",
-  "<a target='_blank' href='https://instagram.com/in/osmangokmenx'>Instagram</a>",
+  "<a target='_blank' href='https://instagram.com/osmangokmenx'>Instagram</a>",
 ];
 
 const projects =
