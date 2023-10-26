@@ -1,9 +1,9 @@
 const about = [
   "Hey there! I'm Osman👋",
   "",
-  "I'm a 18 year old full-stack developer.",
+  "I'm a 19 years old full-stack developer.",
   "I started working as a full-stack developer at sep 2019, since then I'm still working as full-stack developer.",
-  "I'm currently working at&nbsp;<a href='https://teklifbilisim.com' target='_blank'>Teklif Bilisim</a>.",
+  "I'm currently working at&nbsp;<a href='https://jengal.com' target='_blank'>Jengal</a>.",
   "I have experience at Javascript, TypeScript, React.js, React Native, Node.js, Express.js, Socket.io, postgreSQL, mysql and linux.",
 ];
 
